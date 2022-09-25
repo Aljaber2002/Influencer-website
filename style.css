@@ -105,6 +105,7 @@ height: 270px;
 .popular{
     width: 1047px;
 height: 1662px;
+ 
 margin-left: 25%;
 
 
@@ -112,7 +113,7 @@ margin-left: 25%;
 .products{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: 30px;
+    grid-gap: 20px;
 }
 .product{
     width: 329px;
@@ -273,18 +274,26 @@ span{
     .products{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        width: 100%;
+        align-items: center;
+        
         
 
     }
     .footer{
-        display: none;
+        display:
     }
     .Featured{
-        display: none;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .section-tittle{
         text-align:left;
+    }
+    .popular{
+        height: 100%;
+        width: 100%;
     }
 
 
